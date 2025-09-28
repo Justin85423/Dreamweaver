@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <title>我的自我介紹</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    <header>
+        <h1>你好，我是 廖翊淳</h1>
+        <p><strong>就讀學校：</strong>淡江大學</p>
+        <p><strong>科系：</strong>資訊管理學系</p>
+    </header>
+
+    <main>
+        <!-- 文字介紹 -->
+        <section>
+            <h2>關於我</h2>
+            <p>我是一個熱愛學習新技術的學生，平時喜歡 <em>打籃球</em>、<em>繪畫</em> 和 <em>聽音樂</em>。</p>
+        </section>
+
+     
+        <section>
+            <h2>照片</h2>
+
+            <!-- 使用 <img> 標籤來插入圖片（也可以直接存在資料夾用目錄的位置來顯示圖片），alt 屬性提供替代文字，width 屬性設定圖片寬度 -->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs2VOIULnLBzNH1ihQUkIaatOZYJy8pX47JpidjJSBEiQ0WGBoaoJDN3i2afcqMREBFwU&usqp=CAU" alt="可愛的豬" width="300">
+            <img src="images/pig.webp" alt="另一隻可愛的豬" width="300"> 
+        </section>
+
+        <!-- 超連結 -->
+        <section>
+            <h2>我的社群</h2>
+            
+            <!-- 無序列表 -->
+            <ul>
+                <li><a href="https://www.instagram.com/happyjustin0928/" target="_blank">ig</a></li> <!-- 使用使用 <a> 定義超連結，target="_blank" 在新標籤頁打開連結 -->
+                <li><a href="https://github.com/Justin85423">GitHub</a></li> <!-- 省略 target 屬性，預設在同一標籤頁打開連結 -->
+            </ul>
+        </section>
+
+        <!-- 表格 -->
+        <section>
+            <h2>我的課表</h2>
+            <table border="1"> <!-- 使用 border 屬性來添加邊框，數字代表寬度 -->
+                <tr>
+                    <th>時間</th> 
+                    <th>星期一</th>
+                    <th>星期二</th>
+					<th>星期三</th>
+					<th>星期四</th>
+					<th>星期五</th>
+                </tr>
+                <tr>
+                    <td>8:00~9:00</td> 
+                    <td>	</td>
+                    <td>微積分</td>
+					<th>	</th>
+					<th>	</th>
+					<th>英文</th>
+                </tr>
+                <tr>
+                    <td>9:00~10:00</td> 
+                    <td>	</td>
+                    <td>探索永續</td>
+					<th>英文</th>
+					<th>	</th>
+					<th>英文</th>
+                </tr>
+				<tr>
+					<td>10:00~11:00</td> 
+                    <td>會計學</td>
+                    <td>數位科技與AI應用</td>
+					<th>管理學</th>
+					<th>校園與社區服務學習</th>
+					<th>統計學</th>
+			    </tr>
+				<tr>
+					<td>11:00~12:00</td> 
+                    <td>會計學</td>
+                    <td>數位科技與AI應用</td>
+					<th>管理學</th>
+					<th>校園與社區服務學習</th>
+					<th>數位科技與AI應用</th>
+				</tr>
+				<tr>
+					<td>12:00~13:00</td> 
+                    <td>	</td>
+                    <td>	</td>
+					<th>	</th>
+					<th>	</th>
+					<th>基礎程式設計</th>
+				</tr>
+				<tr>	
+				    <td>13:00~14:00</td> 
+                    <td>會計學</td>
+                    <td>	</td>
+					<th>科學之旅</th>
+					<th>	</th>
+					<th>	</th>
+				</tr>
+				<tr>	
+				    <td>14:00~15:00</td> 
+                    <td>微積分</td>
+                    <td>	</td>
+					<th>科學之旅</th>
+					<th>	</th>
+					<th>	</th>
+				</tr>
+				<tr>	
+				    <td>15:00~16:00</td> 
+                    <td>微積分</td>
+                    <td>基礎程式設計</td>
+					<th>管理學</th>
+					<th>	</th>
+					<th>	</th>
+				</tr>
+				<tr>	
+				    <td>16:00~17:00</td> 
+                    <td>	</td>
+                    <td>基礎程式設計</td>
+					<th>統計學</th>
+					<th>大學學習</th>
+					<th>體育</th>
+				</tr>
+				<tr>	
+				    <td>17:00~18:00</td> 
+                    <td>	</td>
+                    <td>	</td>
+					<th>統計學</th>
+					<th>大學學習</th>
+					<th>體育</th>
+				</tr>
+					
+					
+					\
+					
+					
+            </table>
+        </section>
+
+        <!-- 表單 -->
+        <section>
+            <h2>聯絡我</h2>
+            <form>
+                <label for="name">姓名：</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">電子郵件：</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="message">留言：</label><br>
+                <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+                <button type="submit">送出</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 廖翊淳 的自我介紹頁</p>
+    </footer>
+</body>
+
+</html>
