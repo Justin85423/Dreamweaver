@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>畫作博物館</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav__link">首頁</a>
+    <a href="animals.html" class="nav__link">畫作博物館</a>
+    <a href="adopt.html" class="nav__link">我要預約</a>
+    <a href="contact.html" class="nav__link">聯絡我們</a>
+  </nav>
+
+  <div class="container">
+    <h1>可預約的畫作</h1>
+    <p style="text-align:center;">看看這些畫作，也許有一幅正等著你 </p>
+
+<div class="gallery">
+
+  <div class="animal-card">
+    <img src="image\1.jpg" alt="巨人強襲" class="animal-img" onclick="document.getElementById('info1').showModal()">
+    <p> 巨人強襲</p>
+  </div>
+
+  <dialog id="info1" class="animal-dialog">
+    <h2> 巨人強襲</h2>
+    <img src="image\1.jpg" alt="巨人強襲" class="dialog-img">
+    <p>作品：進擊的巨人<br>名言：心臓を捧げよ(´～`)️<br></p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+
+  <div class="animal-card">
+    <img src="image\2.jpg" alt="DanDanDan" class="animal-img" onclick="document.getElementById('info2').showModal()">
+    <p>DanDanDan</p>
+  </div>
+
+  <dialog id="info2" class="animal-dialog">
+    <h2>DanDanDan</h2>
+    <img src="image\2.jpg" alt="DanDanDan" class="dialog-img">
+    <p>作品：膽大黨<br>名言：我要使出全力囉！<br></p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+  
+  <div class="animal-card">
+    <img src="image\3.jpg" alt="鬼島之戰" class="animal-img" onclick="document.getElementById('info3').showModal()">
+    <p>鬼島之戰</p>
+  </div>
+
+  <dialog id="info3" class="animal-dialog">
+    <h2>鬼島之戰</h2>
+    <img src="image\3.jpg" alt="鬼島之戰" class="dialog-img">
+    <p>作品：one piece<br>介紹：One piece最燃暑假 Let battel<br></p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+  
+  <div class="animal-card">
+    <img src="image\9.jpg" alt="堅定的毅力" class="animal-img" onclick="document.getElementById('info4').showModal()">
+    <p>堅定的毅力</p>
+  </div>
+
+  <dialog id="info4" class="animal-dialog">
+    <h2>所謂的追夢</h2>
+    <img src="image\9.jpg" alt="堅定的毅力" class="dialog-img">
+    <p>作品：怪獸8號<br>
+       名言：所謂的追夢<br> 
+            就是做著最重要最難以割捨的那件事 <br>
+            但卻不斷的被別人超前 不過 <br>
+            也足以讓人熱血沸騰 <br>
+            甚至把所有事情完全拋到腦後！</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+  
+  <div class="animal-card">
+    <img src="image\6.jpg" alt="有我在我們是最強!" class="animal-img" onclick="document.getElementById('info5').showModal()">
+    <p>有我在我們是最強!</p>
+  </div>
+
+  <dialog id="info5" class="animal-dialog">
+    <h2>有我在我們是最強!</h2>
+    <img src="image\6.jpg" alt="有我在我們是最強!" class="dialog-img">
+    <p>作品：咒術迴戰<br>名言：有你在 我就是最強✨<br></p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+  
+  <div class="animal-card">
+    <img src="image\7.jpg" alt="歡迎回家" class="animal-img" onclick="document.getElementById('info6').showModal()">
+    <p>歡迎回家</p>
+  </div>
+
+  <dialog id="info6" class="animal-dialog">
+    <h2>歡迎回家</h2>
+    <img src="image\7.jpg" alt="歡迎回家" class="dialog-img">
+    <p>作品：鬼滅之刃<br>名言：おかえり なさい あなた･･･<br></p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+  
+</div>
+
+
+
+  <footer>
+    © 2025 畫作博物館園地 | 作畫使生活更有趣 
+  </footer>
+</body>
+</html>
+
+

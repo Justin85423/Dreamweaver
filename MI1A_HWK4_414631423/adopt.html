@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>我要預約</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+   <a href="index.html" class="nav__link">首頁</a>
+    <a href="animals.html" class="nav__link">畫作博物館</a>
+    <a href="adopt.html" class="nav__link">我要預約</a>
+    <a href="contact.html" class="nav__link">聯絡我們</a>
+  </nav>
+
+  <div class="container">
+    <h1>作品申請表</h1>
+    <h3>請填寫以下資料，我們將與您聯繫安排訪視及領養流程。</h3>
+
+    <form action="thankyou.html" method="get">
+      <label for="name">姓名：</label>
+      <input type="text" id="name" name="name" placeholder="請輸入姓名" required>
+
+      <label for="email">電子郵件：</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="phone">電話：</label>
+      <input type="tel" id="phone" name="phone" placeholder="0912-345-678" required>
+
+      <label for="animal">想預約的畫作：</label>
+      <select id="animal" name="animal" required>
+        <option value="">請選擇作品</option>
+        <option>巨人強襲</option>
+        <option>DanDanDan</option>
+        <option>鬼島之戰</option>
+        <option>堅定的毅力</option>
+		<option>有我在我們是最強!</option>
+		<option>歡迎回家</option>
+      </select>
+
+      <p>選擇材料：</p>
+      <label><input type="radio" name="house" value="apartment"> 紙張</label>
+      <label><input type="radio" name="house" value="house"> 帆布</label>
+      <label><input type="radio" name="house" value="other"> 其他</label>
+
+      <p>畫圖格式（可複選）：</p>
+      <label><input type="checkbox" name="experience" value="dog"> 水墨</label>
+      <label><input type="checkbox" name="experience" value="cat"> 素描</label>
+      <label><input type="checkbox" name="experience" value="none"> 隨意</label>
+
+      <label for="reason">預約動機：</label>
+      <textarea id="reason" name="reason" rows="4" placeholder="請簡述為何想要預約..."></textarea>
+
+      <div class="btn-group">
+        <button class="btn" type="submit">提交申請</button>
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    © 2025 畫作博物館園地 | 作畫使生活更有趣 ��
+  </footer>
+</body>
+
+</html>
+
+
+
