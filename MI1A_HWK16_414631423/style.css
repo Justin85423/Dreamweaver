@@ -1,0 +1,144 @@
+@charset "utf-8"; /*#FF6666
+/* CSS Document */
+/* 基本設定 */
+body {
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* 導覽列 */
+header {
+    background: #FF9966; 
+    color: white;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #FF6666 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* 主視覺 (Hero) */
+.hero {
+    background-color: #f4f4f4;/*創造味蕾*/
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-image: url('images/banner.jpg'); background-size: cover;
+	background-position: center;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff7675;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* 區塊樣式 */
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.feature-box {
+    background: #eee;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+/* 表格樣式 */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.schedule-table th {
+    background-color: #CC9966;
+    color: white;
+}
+
+/* 頁尾 */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+/* 報名下載區塊樣式 */
+
+#register {
+    background-color: #FF6666; /* 淡藍色背景，區隔區塊 */
+    margin-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+.download-zone {
+    margin-top: 20px;
+}
+
+.download-btn {
+    background-color: #27ae60; /* 改成綠色，代表通過/下載 */
+    margin: 10px; /* 讓按鈕之間有點距離 */
+    font-size: 18px;
+    border: 2px solid #00CC33;
+}
+
+.download-btn:hover {
+    background-color: #00CC33; /* 滑鼠移過去變深色 */
+}
